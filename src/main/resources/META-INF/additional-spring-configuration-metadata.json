@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "Clave secreta utilizada para firmar y verificar los tokens JWT. Debe ser segura y tener al menos 32 caracteres para garantizar la seguridad de los tokens."
+    },
+    {
+      "name": "jwt.expiration",
+      "type": "java.lang.String",
+      "description": "Duración del token JWT en milisegundos. Esto determina cuánto tiempo será válido el token antes de que expire y el usuario necesite autenticarse nuevamente."
+    }
+  ]
+}
